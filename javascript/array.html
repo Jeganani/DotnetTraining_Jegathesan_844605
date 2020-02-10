@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>array</title>
+</head>
+<body>
+
+<script>
+var x=['jegan','mohan','kumar','vijay'];
+document.getElementById("demo").innerHTML=x.innerHTML;
+function myfun()
+{
+x.push(document.getElementById("demo1").value);
+document.getElementById("demo").innerHTML=x;
+}
+function pop()
+{
+x.pop();
+document.getElementById("demo").innerHTML=x;
+}
+
+</script>
+<input type="text" id="demo1">
+<button onclick="myfun()">push</button>
+<p id="demo"></p>
+<button onclick="pop()">pop</button>
+</body>
+</html>

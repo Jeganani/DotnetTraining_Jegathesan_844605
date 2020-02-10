@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Javascript</title>
+</head>
+<body>
+<center>
+<h1>Enter Your First Number:</h1> 
+<input type="text" id="text1" >
+<h1>Enter Your Second Number:</h1> 
+<input type="text" id="text2" ><br><br>
+<button onclick="add()" style="padding=30px;border:3px solid green;width:70px;height:25px">add</button>
+
+<h2>Your Answer is:</h2><br>
+<p id="demo" style="font-size:30px;color:blue;"></p>
+</center>
+<script>
+function add()
+{
+var a=document.getElementById('text1').value;
+var b=document.getElementById('text2').value;
+var x=parseInt(a)+parseInt(b);
+document.getElementById("demo").innerHTML=x;
+ 
+}
+
+
+</script>
+
+</body>
+</html>
