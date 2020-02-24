@@ -1,0 +1,25 @@
+h1,h2,p{
+color:red;
+}
+body
+{
+background-color:lightgreen;
+}
+#01{
+
+color:green;
+}
+#para1 {
+  text-align: center;
+  color: red;
+}
+#par{
+color: yellow;
+}
+div
+{
+padding:20px;
+border:15px solid yellow;
+margin:30px;
+width:350px;
+}
