@@ -1,0 +1,19 @@
+body{background-color:black;
+     font-family:Arial;
+      color:white;}
+h3,p{font-family:ARial Black;
+  color:yellow;
+  font-size:30px;}
+
+#para1{font-family:ARial Black;
+  color:lightblue;
+  font-size:30px;}
+
+.cls{font-family:ARial Black;
+  color:white;
+  font-size:30px;}
+
+*{font-family:ARial Black;
+  color:green;
+  font-size:30px;}
+
